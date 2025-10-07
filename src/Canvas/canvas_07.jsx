@@ -167,7 +167,6 @@ function CanvasCompositing() {
         height={150}
         style={{ border: "1px solid grey" }}
       >
-        Sorry, your browser does not support canvas.
       </canvas>
     </div>
   );
@@ -200,7 +199,6 @@ function CanvasCompositingLighten() {
         height={150}
         style={{ border: "1px solid grey" }}
       >
-        Sorry, your browser does not support canvas.
       </canvas>
     </div>
   );

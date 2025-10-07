@@ -1,16 +1,16 @@
 import { useEffect, useRef } from "react";
 
 function CanvasRectangle() {
-  const canvasRef = useRef(null);
+  const canvasRef = useRef(null); // reference to the canvas element
 
   useEffect(() => {
-    const canvas = canvasRef.current;
+    const canvas = canvasRef.current; // get canvas from ref
     if (canvas) {
       const ctx = canvas.getContext("2d");
       ctx.fillStyle = "rgb(0, 115, 153)";
       ctx.fillRect(0, 0, 150, 75);
     }
-  }, []);
+  }, []); // run once after component mountsq
 
   return (
     <div>
